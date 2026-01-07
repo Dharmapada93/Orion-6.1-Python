@@ -36,3 +36,90 @@ Variables are the containers which are used to store some value or data in a pro
 2. Name should not start a number 
 3.No special characters are allow except underscore(_) 
 4. Keywords can not be used to create a variable 
+
+Data Types are the category which specify which type of value a variable can store.
+##Number Types :
+There are three types of number types 
+a. Int: It stores whole positive or negative number. ex= a =10, b=-20
+b. float type : it stores floating point or decimal positive or negative numbers. ex: 1..23
+c. Complex Types : It is the combination of real number and imaginary part.
+-This is used for scientific calculations.
+eg: a+xj, 5+aj
+
+##Boolean Type:-
+It represents only two value that is True and False
+It is used for logical operations.
+
+##Sequence Types:-
+It stores ordered collection of items in a single variable.
+There are three types of sequence variables :
+
+a. String : Sequence of characters which is written inside single or doble quotes.
+eg: str = "Hello", 'Hi'
+
+b. Lists: It is a collection of multiple values in a single variable.
+It is mmutable in nature
+It is denoted by square Bracket [].
+eg: name = ['sumit', 'Golu']
+
+c. Touple: It is a collection of multiple values in a single variable.
+It is immutable in nature. It can't be changed once created.
+It is denoted by curly braces {}
+eg: marks = {10,20,30}
+
+
+##Set Types:-
+It is a collection of unordered unique value.
+It is denoted by curly braces
+eg: item = {1,1,2,3,4,4,5,6}
+output will be unique 
+
+## Mapping Types
+It has one data type:
+
+a. Dictionary (dict) :- It is a collection of unordered mutable key value pairs
+
+We can store any type of value in a single dictionary.
+eg:- object = {
+name : 'ABAC',
+marks : 60,
+age : 20
+}
+It is denoted by curly braces and each key value pair is separated by comma(,).
+
+##None Types:-
+None means Nothing 
+It represents the absence of a value.
+eg: a = None
+
+Note:- type() function is used to check the data type of a variable or object.
+
+
+##Operators 
+Operators are the symbols or keywords used to perform 
+Operations on variables and value or operands.
+eg : a+b
+a-b
+a/b
+a*b
+
+here a and b are operands and '+,-,/,*' are the operators
+
+1. Arithmetic Operators:- used for mathematical operations with numeric values.
++:Addition
+-:Subtraction
+/:Division
+*:Multiplication
+%:Modulus(Remainder)
+**:Power or exponent
+//:Floor division(Round Value)
+
+2. Assignment Operators:- Used to assign value to variables.
+=  : Assigns value to variable
++= : Adds and Assigns value to the left operand
+-= : Subtract and assign value to the left operand
+*= : Multiply and assign value to the left operand
+/= : Divide and assign value to the left operand
+//=: Flloor divide and assign value to the left operand
+%= : Modulus and assign value to the left operand
+**=: Powers and assign value to the left operand
