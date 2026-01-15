@@ -299,3 +299,45 @@ dictioanryName.popitem()
 dictionaryName.update({"key":value})
 9.clear() :- It removes all the items from a dictionary.
 dictionaryName.clear()
+
+OOP(Object oriented programming)
+
+It is a programming paradigm that is based on the concept of "objects" which can contains data and code that manipulates the data.
+
+Key concept of OOPs:-
+1.Class:- A class is a blueprint for creating object that encapsulate data and methods.
+-Class can be created by "class" keyword
+-A class Can have constructor (__int__) and define their own behavior via methods.
+Syntax: class className:
+  constructor(self, parameters):
+  self.variable = parameter
+  def methodName(self):
+  instructions
+
+2. Object: An object is an instance of a class.
+-Objects have attributes/properties and method.
+-We can create multiple objects from the same class, each with their own attribute values.
+Syntax:-
+  object1 = className(arguments)
+
+3.Methods :- Methods are functions defined inside a class that describes the behaviors of an object.
+-All methods have "self" keyword as their first parameter, which allows them to access and modify the object's attribute.
+Syntax:- Class className (self):
+  iinstructions
+
+4. Self keyword :-Self refers to the current object or current instance of the class.
+-It enables each object to maintain it's own attribute values.
+-Without self keyword, python would not know which object's data to use in methods or constructor.
+
+5. Constructor:-A constructor is a special method which is called automatically when an object is created from a class.
+-It is used to initialize the object's attribute or set initial state.
+__init__ is the constructor in python, which is defined inside the class.
+Syntax:-
+  class className:
+  constructor(self, parameters):
+  self.variable = parameter
+
+Types of Constructor:-
+a> Default Constructor:- It takes no arguments except ‘self’ keyword.
+b> Parameterized Constructor:- It takes one or more parameters including self.
+-It initializes objects attribute with user value.
