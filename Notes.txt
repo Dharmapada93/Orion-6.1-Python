@@ -1,0 +1,137 @@
+1.Single Inheritance:-
+class Parent:
+	methods/attributes
+	
+class Child(Parent):
+	methods/attributes
+	
+obj = Child()
+
+2.Multiple Inheritance:-
+class A:
+	methods/attributes
+	
+class B:
+	methods/attributes
+
+class C(A,B):
+	methods/attributes
+	
+obj = C()
+	
+3.Multilevel Inheritance:-
+class A:
+	methods/attributes
+
+class B(A):
+	methods/attributes
+
+class C(B):
+	methods/attributes
+
+obj = C()
+
+4.Hierarchical Inheritance:-
+class Parent:
+	methods/attributes
+
+class Child1(Parent):
+	methods/attributes
+
+class Child2(Parent):
+	methods/attributes
+
+obj1 = Child1()
+obj2 = Child2()
+
+5.Hybrid Inheritance:-
+class A:
+	methods/attributes
+	
+class B(A):
+	methods/attributes
+
+class C:
+	methods/attributes
+	
+class D(B,C):
+	methods/attributes
+	
+obj = D()
+
+Method Overriding:-
+class Parent:
+	def greet(self):
+		print("Hello everyone")
+		
+class Child(Parent):
+	def greet(self): #Method overriding
+		print("Good Morning everyone")
+		
+
+Encapsulation-
+1.Public Members:- It is accessible anywhere
+class Student:
+	def __init__(self, name):
+		self.name = name #Public
+	
+s1 = Student("Allen")
+print(s1.name)
+
+2.Protected Members(_):- accessible inside the class also inside the child class.
+-It is not recommended to use.
+
+class Student:
+	def __init__(self, name):
+		self._name = name #Protected
+	
+s1 = Student("Allen")
+print(s1._name)# Possible but not recommended
+
+3.Private Members(__):- accessible only inside the class.
+-If we try to access private members outside the class then it will throws an error.
+
+class Student:
+	def __init__(self, name):
+		self.__name = name #Private
+	
+s1 = Student("Allen")
+print(s1.__name)# Not-possible , throws an error
+
+Polymorphism:-
+1. Method Overriding(Runtime Polymorphism):-
+2. Polymorphism with Different Objects:-
+class Bird:
+	def fly(self):
+		print("Bird can fly")
+		
+class Airplane:
+	def fly(self):
+		print("Airplane flies in sky")
+	
+b1 = Bird()
+b1.fly()
+ar1 = Airplane()
+ar1.fly()
+
+Abstraction:-
+ABC(Abstract Base Class) and abstractmethod
+
+from abc import ABC, abstractmethod
+class Vehicle(ABC):
+    @abstractmethod
+    def start_engine(self):
+        pass
+
+class Car(Vehicle):
+    def start_engine(self):
+        print("Car engine started")
+
+class Bike(Vehicle):
+    def start_engine(self):
+        print("Bike engine started")
+
+car1 = Car()
+car1.start_engine()
+bike1 = Bike()
+bike1.start_engine()
