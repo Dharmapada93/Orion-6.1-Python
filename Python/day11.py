@@ -66,12 +66,12 @@ def devide(a,b):
 # finally:
 #     print("Execution completed.")     
 
-age = int(input("Enter your age: "))
+# age = int(input("Enter your age: "))
 
-try:
-    if age < 0:
-        raise ValueError("Age cannot be negative")
-except ValueError as ve:
-    print(ve)
-else:
-    print(f"Your age is {age}")
+# try:
+#     if age < 0:
+#         raise ValueError("Age cannot be negative")
+# except ValueError as ve:
+#     print(ve)
+# else:
+#     print(f"Your age is {age}")
