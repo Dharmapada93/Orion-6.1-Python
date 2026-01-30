@@ -39,6 +39,6 @@
 
 # file.close()
 
-with open('PracticeSet1.txt', 'r') as f:
-    content = f.readline(20)
+with open('Python\PracticeSet1.txt', 'r') as f:
+    content = f.readlines()
     print(content)

@@ -135,3 +135,57 @@ car1 = Car()
 car1.start_engine()
 bike1 = Bike()
 bike1.start_engine()
+
+Error:- ZeroDivisionError, TypeError, ImportError
+a-b
+
+10,2=5
+10,0=
+
+Exception:-
+
+Exception Handling:-
+
+try:
+	statement
+except:
+	statement
+finally:
+	statement
+	
+File Handling:-
+open()
+
+file = open('fileName', 'mode')
+
+Some Common File Handling Modes:-
+r(read mode)-It allows to open a file for read only, 
+w(write mode)- It allows to open a file for writting only, 
+a(append mode)- 
+r+(Read and write)- 
+w+(Write and read)- 
+a+(Append and read)- 
+
+File reading methods():-
+1. read()- It reads the entire file as a string.
+2. readline()- It reads the one line at a time as a string.
+- It accepts an argument that is index value, according to the index value it will read the file.
+3. readlines()- I t reads all the lines.
+
+File closing Method:-
+close()	with
+
+syntax- 1
+file = open('fileName', 'mode')
+content = file.read()
+file.close()
+
+syntax- 2
+with open('fileName', 'mode') as f:
+	content = f.read()
+	print(content)
+	
+Some additional Methods for File Handling:-
+1. seek()-It moves the file pointer to specific position/index.
+2. writable()-It checks if the file is writable or not.
+3. readable()-It checks if the file is readable or not.
