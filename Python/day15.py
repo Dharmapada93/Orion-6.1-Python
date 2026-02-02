@@ -37,6 +37,9 @@
 # print(random.randrange(1,10))
 # print(random.uniform(1,10))
 
+
+#User-defined Module
+
 # import day6
 # import day6 as udm
 # from day6 import sum, multi
@@ -47,3 +50,4 @@
 import userDefined_module as module
 print(module.sum(10,20))
 print(module.multi(10,20))
+print(module.x)

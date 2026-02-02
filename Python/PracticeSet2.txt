@@ -1,0 +1,13 @@
+1. Write a program to create a list of prime numbers between 1 and 100.
+2. Find common elemnts in two lists.
+3. Find greatest common divisor(gcd) of two number(by using math module)
+4. Find missing numbers in a list.[1,2,3,5,6,7,8]
+5. Write a program to initialize object data.
+6. Write a program to demostrate method overriding.
+7. Write a program to handle division by zero error.
+8. Write a program to handle multiple exception.
+9. Write a program to create a user-defined exception.
+10. Write a program to handle file also handle if the file is not found.
+11. Write a program to write data line by line into a file.
+12. Write a program to handle a file by both reading and writing using all the three a+, r+, and w+ method.
+13. Write a program to add a key in a dictionary.

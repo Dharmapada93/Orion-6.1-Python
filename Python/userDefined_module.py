@@ -9,3 +9,5 @@ def devide(a,b):
 
 def sub(a,b):
     return a-b
+
+x = 100
